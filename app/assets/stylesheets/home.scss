@@ -23,26 +23,27 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-
-  left: 39.5vw;
-  position: absolute;
+  left: 2.5vw;
+  position: relative;
+  top:32vh;
 }
 
 .red {
-  position: absolute;
+  position: relative;
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-
-  left: 40vw;
+  left: 3vw;
+  top:32vh;
 }
 
 .green {
   background-color: #82BF56;
   border-bottom: 5px solid #669644;
   text-shadow: 0px -2px #669644;
-  left:43.5vw;
-  position: absolute;
+  left:6.5vw;
+  position: relative;
+  top:32vh;
 }
 
 .yellow {
@@ -55,4 +56,13 @@ body {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
+}
+
+#cell_body{
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  left: 35vw;
+  background-color: #CCCCCC;
+  top: 0;
 }

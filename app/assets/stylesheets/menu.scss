@@ -23,8 +23,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  right: -34vw;
+  left: 2vw;
   position: relative;
+  top: 12vh;
 }
 
 .red {
@@ -32,23 +33,26 @@ body {
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 35.5vw;
+  left: 3.5vw;
+  top: 12vh;
 }
 
 .green {
   background-color: #82BF56;
   border-bottom: 5px solid #669644;
   text-shadow: 0px -2px #669644;
-  right: -35vw;
+  left: 3vw;
   position: relative;
+  top: 10vh;
 }
 
 .yellow {
   background-color: #F2CF66;
   border-bottom: 5px solid #D1B358;
   text-shadow: 0px -2px #D1B358;
-  right: -37vw;
+  left: 4vw;
   position: relative;
+  top: 12vh;
 }
 
 .action-button:active {
@@ -57,3 +61,11 @@ body {
   border-bottom: 1px solid;
 }
 
+#cell_body{
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  left: 35vw;
+  background-color: #CCCCCC;
+  top: 0;
+}

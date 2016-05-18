@@ -23,8 +23,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  right: -40vw;
+  left: 9.8vw;
   position: relative;
+  top: 22vh;
 }
 
 .red {
@@ -32,7 +33,8 @@ body {
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 37vw;
+  left: 7vw;
+  top: 22vh;
 }
 
 .green {
@@ -55,5 +57,15 @@ body {
 
 .account_login{
   position: relative;
-  right:-38vw;
+  left: 7vw;
+  top: 22vh;
+}
+
+#cell_body{
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  left: 35vw;
+  background-color: #CCCCCC;
+  top: 0;
 }

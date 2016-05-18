@@ -23,8 +23,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  right: -34vw;
+  left: 9vw;
   position: relative;
+  top: 20vh;
 }
 
 .red {
@@ -55,4 +56,13 @@ body {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
+}
+
+#cell_body{
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  left: 35vw;
+  background-color: #CCCCCC;
+  top: 0;
 }

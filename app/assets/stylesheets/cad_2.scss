@@ -23,8 +23,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  right: -39vw;
+  left: 8vw;
   position: relative;
+  top: 20vh;
 }
 
 .red {
@@ -55,5 +56,15 @@ body {
 
 .cad2_form{
   position: relative;
-  right:-38vw;
+  left: 8vw;
+  top: 20vh;
+}
+
+#cell_body{
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  left: 35vw;
+  background-color: #CCCCCC;
+  top: 0;
 }
