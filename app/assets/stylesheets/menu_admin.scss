@@ -19,6 +19,8 @@ body {
   text-decoration: none;
 }
 
+
+
 .blue {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
@@ -32,9 +34,10 @@ body {
   background-color: #6300db;
   border-bottom: 5px solid #4c03db;
   text-shadow: 0px -2px #4c03db;
-  left: 8.5vw;
-  position: relative;
-  top: 20vh;
+  right: 0vw;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
 }
 
 .red {
