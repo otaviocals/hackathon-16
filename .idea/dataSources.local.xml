@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Hackathon-16: development" uuid="af6416ac-aa30-43f0-b41b-1e726790e121">
+      <auth-required>false</auth-required>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails Hackathon-16: production" uuid="d6a49b8c-174c-444c-90b9-08bb62994cef">
+      <first-sync>true</first-sync>
+      <user-name>qjsllvqenqvjpz</user-name>
+      <user-password>dfd0dfc7dfefdfdadfc9dff9df9fdfd8dfe3dffedfe7dff2dffbdffedf93dfcddfc8dfeddfc7dfc9df9fdfe5dffedff3dfffdfd9</user-password>
+    </data-source>
+    <data-source name="Rails Hackathon-16: test" uuid="96e57b99-df1c-4e0a-99d6-d27043691b83">
+      <first-sync>true</first-sync>
+      <user-name>qjsllvqenqvjpz</user-name>
+      <user-password>dfd0dfc7dfefdfdadfc9dff9df9fdfd8dfe3dffedfe7dff2dffbdffedf93dfcddfc8dfeddfc7dfc9df9fdfe5dffedff3dfffdfd9</user-password>
+    </data-source>
+  </component>
+</project>
