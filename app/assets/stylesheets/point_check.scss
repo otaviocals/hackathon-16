@@ -9,14 +9,15 @@ If you like this solution, you might also want to check out the 1.0 version:
 */
 .responstable {
   margin: 1em 0;
-  width: 100%;
+  width: 30vw;
   overflow: hidden;
   background: #FFF;
   color: #024457;
   border-radius: 10px;
   border: 1px solid #167F92;
-  position: relative;
-  top: -9vh;
+  position: absolute;
+
+  //top: 35vh;
 }
 .responstable tr {
   border: 1px solid #D9E4E6;
@@ -125,9 +126,9 @@ h1 span {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  position: relative;
+  position: absolute;
   left: 9vw;
-  top: -9vh;
+  bottom: -45vh;
 }
 
 .animate {
@@ -162,4 +163,44 @@ h1 span {
   background-position: 7vw 2vh;
   position: relative;
   top: -7vh;
+}
+
+.table_area{
+  position: absolute;
+  height: 45vh;
+  width: 100vw;
+  overflow-y: scroll;
+  z-index: 10;
+  top: 40vh;
+}
+
+.red {
+  position: relative;
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+  left: 1.5vw;
+  top: -5vh;
+}
+
+.purple {
+  background-color: #6300db;
+  border-bottom: 5px solid #4c03db;
+  text-shadow: 0px -2px #4c03db;
+  left: 1.5vw;
+  position: relative;
+  top: -5vh;
+}
+
+#extract{
+  display: block;
+  z-index: 15;
+  height: 33.5vw;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#extract:target{
+  display: none;
+  z-index: 15;
 }
