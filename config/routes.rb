@@ -20,6 +20,12 @@ Rails.application.routes.draw do
   get 'how_to' => 'home#how_to'
   get 'redeem' => 'home#redeem'
   get 'join' => 'home#join'
+  get 'new_org' => 'home#new_org'
+  get 'new_org_sub_action' => 'home#new_org_sub_action'
+  get 'new_org_sub_reward' => 'home#new_org_sub_reward'
+  get 'join_org' => 'home#join_org'
+  get 'joined' => 'home#joined'
+  get 'ranking' => 'home#ranking'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

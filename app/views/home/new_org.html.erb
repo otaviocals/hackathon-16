@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackathon 2016</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'new_org', :media => 'all' %>
+
+
+
+</head>
+
+<body>
+
+<div id="cell_body">
+
+  <form class="new_org_form">
+    <label for="org_name">Nome da Organizaçao</label>
+    </br>
+    <input type="text" id="org_name" name="org_name">
+    </br>
+    <label for="partner_type"><h4>Tipo de Parceria</h4></label>
+    <input type="radio" name="partner_type" id="partner_type" value="action" onclick="javascript:document.getElementById('new_org_submit').href='/new_org_sub_'+this.value" checked> Parceiro de Açao
+    <br>
+    <input type="radio" name="partner_type" id="partner_type" value="reward" onclick="javascript:document.getElementById('new_org_submit').href='/new_org_sub_'+this.value" > Parceiro de Recompensa
+    </br>
+    </br>
+    <label for="org_descript">Decriçao</label>
+    </br>
+    <textarea cols="40" rows="10" id="org_descript" name="org_descript" style="left: -4.5vw; position: relative" ></textarea>
+  </form>
+
+
+  <a href="/new_org_sub_action" id="new_org_submit" class="action-button shadow animate red">Enviar</a>
+
+  <a href="/join" class="action-button shadow animate blue">Voltar</a>
+
+</div>
+
+
+
+</body>
+
+</html>

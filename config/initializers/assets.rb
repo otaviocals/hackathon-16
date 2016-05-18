@@ -21,6 +21,12 @@ Rails.application.config.assets.precompile += %w( how_to.css )
 Rails.application.config.assets.precompile += %w( point_check.css )
 Rails.application.config.assets.precompile += %w( redeem.css )
 Rails.application.config.assets.precompile += %w( join.css )
+Rails.application.config.assets.precompile += %w( new_org.css )
+Rails.application.config.assets.precompile += %w( new_org_sub_action.css )
+Rails.application.config.assets.precompile += %w( new_org_sub_reward.css )
+Rails.application.config.assets.precompile += %w( join_org.css )
+Rails.application.config.assets.precompile += %w( joined.css )
+Rails.application.config.assets.precompile += %w( ranking.css )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

@@ -1,4 +1,5 @@
 body {
+  padding: 50px;
 }
 
 .animate {
@@ -22,9 +23,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  left: 9vw;
+  left: 9.5vw;
   position: relative;
-  top:40vh;
+  top: 20vh;
 }
 
 .red {
@@ -32,25 +33,19 @@ body {
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 1.5vw;
-  top: 20vh;
+  left: 37vw;
 }
 
 .green {
   background-color: #82BF56;
   border-bottom: 5px solid #669644;
   text-shadow: 0px -2px #669644;
-  left: 1.4vw;
-  position: relative;
-  top: 20vh;
 }
 
 .yellow {
   background-color: #F2CF66;
   border-bottom: 5px solid #D1B358;
   text-shadow: 0px -2px #D1B358;
-  right: -37vw;
-  position: relative;
 }
 
 .action-button:active {
@@ -68,7 +63,9 @@ body {
   top: 0;
 }
 
-.join_form{
+#cell_body h1{
   position: relative;
-  left: 6.5vw;
+  width: 20vw;
+  left: 6vw;
+  top: 17vh;
 }

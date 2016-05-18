@@ -25,7 +25,16 @@ body {
   text-shadow: 0px -2px #2980B9;
   left: 2vw;
   position: relative;
-  top: 12vh;
+  top: 20vh;
+}
+
+.purple {
+  background-color: #6300db;
+  border-bottom: 5px solid #4c03db;
+  text-shadow: 0px -2px #4c03db;
+  left: 8.5vw;
+  position: relative;
+  top: 20vh;
 }
 
 .red {
@@ -34,7 +43,7 @@ body {
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
   left: 3.5vw;
-  top: 12vh;
+  top: 20vh;
 }
 
 .green {
@@ -43,7 +52,7 @@ body {
   text-shadow: 0px -2px #669644;
   left: 3vw;
   position: relative;
-  top: 10vh;
+  top: 20vh;
 }
 
 .yellow {
@@ -52,7 +61,7 @@ body {
   text-shadow: 0px -2px #D1B358;
   left: 4vw;
   position: relative;
-  top: 12vh;
+  top: 35vh;
 }
 
 .action-button:active {
@@ -68,4 +77,162 @@ body {
   left: 35vw;
   background-color: #CCCCCC;
   top: 0;
+}
+
+//Hamburguer Menu
+
+
+.barra-sup {
+  /*background: #ccc;*/
+  height: 40px;
+  position: fixed;
+  /*Hasta q no pones el width, no sale la barra gris por culpa del position fixed y no tener ningun contenido dentro!*/
+  width: 100%;
+}
+
+.barra-sup .hamburguer span {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 3px;
+  background: #000;
+}
+
+.barra-sup .hamburguer {
+  display: inline-block;
+  margin-top: 9.5px;
+  margin-left: 9.5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.barra-sup .hamburguer:active {
+  display: inline-block;
+  margin-top: 9.5px;
+  margin-left: 9.5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+nav {
+  position: absolute;
+  /*CRUZ*/
+  /*top: 40px;*/
+  padding-top: 20px;
+  /*CRUZ*/
+  background: #f6704b;
+  width: 200px;
+  /*Como mide 200px de ancho, lo ocultas con un left negativo de los mismos pixeles*/
+  left: -200px;
+  transition: all .5s;
+
+  /*CRUZ*/
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/*La clase .mostrar la añade jQuery usando el metodo toggleClass()*/
+nav.mostrar {
+  left: 0;
+}
+
+nav .cruz {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+nav .cruz span {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #ff0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+}
+
+nav .cruz span:first-child {
+  transform: rotate(45deg);
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+}
+
+nav .cruz span:last-child {
+  margin-top: -3px;
+  transform: rotate(-45deg);
+}
+
+nav .img {
+  height: 100px;
+  background-image: url("https://source.unsplash.com/6g0KJWnBhxg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul li {
+  margin: 20% 10%;
+}
+
+nav ul li span{
+  margin-right: 10%;
+  font-size: 30px;
+  color: #000;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#side_bar{
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: -16vw;
+  z-index: 10;
+  display: none;
+}
+
+#side_bar:target{
+  left:0%;
+  display: block;
+}
+
+#hamburguer_icon{
+  background-image: url(hamburguer.png);
+  background-size: 100%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  left: 1vw;
+  top: 1vh;
+  margin: 0;
+  padding: 0;
+}
+
+#hamburguer_menu{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#close_icon{
+  background-image: url(close.png);
+  background-size: 100%;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  left: 1vw;
+  top: 1vh;
+  margin: 0;
+  padding: 0;
+}
+
+#cloe_button{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }

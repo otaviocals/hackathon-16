@@ -22,9 +22,9 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  left: 9vw;
+  left: -3.5vw;
   position: relative;
-  top:40vh;
+  top:28vh;
 }
 
 .red {
@@ -32,8 +32,8 @@ body {
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 1.5vw;
-  top: 20vh;
+  left: 9vw;
+  top: 15vh;
 }
 
 .green {
@@ -71,4 +71,10 @@ body {
 .join_form{
   position: relative;
   left: 6.5vw;
+}
+
+.new_org_form{
+  position: relative;
+  left: 7vw;
+  top: 12vh;
 }
