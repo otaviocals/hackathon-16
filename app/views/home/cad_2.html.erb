@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackathon 2016</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'cad_2', :media => 'all' %>
+
+
+
+</head>
+
+<body>
+
+<form class="cad2_form" id="form3" name="form3" method="post" action="">
+  <label for="job"><h4>Profissao</h4></label>
+  </br>
+  <input type="radio" name="job" id="job" value="stud" onclick="javascript:document.getElementById('editBTN').href='cad_3_'+this.value" checked> Estudante
+  <br>
+  <input type="radio" name="job" id="job" value="teach" onclick="javascript:document.getElementById('editBTN').href='cad_3_'+this.value" > Professor
+  <br>
+  <input type="radio" name="job" id="job" value="work" onclick="javascript:document.getElementById('editBTN').href='cad_3_'+this.value" > Tecnico
+  <br>
+  <input type="radio" name="job" id="job" value="out" onclick="javascript:document.getElementById('editBTN').href='cad_3_'+this.value" > Terceirizado
+</form>
+
+</br>
+</br>
+
+<a id="editBTN" href="cad_3_stud" class="action-button shadow animate blue">Proximo</a>
+
+</body>
+
+</html>
