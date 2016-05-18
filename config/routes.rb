@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   get 'joined' => 'home#joined'
   get 'ranking' => 'home#ranking'
   get 'menu_admin' => 'home#menu_admin'
+  get 'my_orgs' => 'home#my_orgs'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
