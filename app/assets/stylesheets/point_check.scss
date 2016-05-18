@@ -83,13 +83,65 @@ body {
   //background: #f2f2f2;
 }
 
-h1 {
+#cell_body h1 {
   font-family: Verdana;
   font-weight: normal;
   color: #024457;
-  left: 35vw;
-  position: absolute;
+  position: relative;
 }
+
+#cell_body p {
+  font-family: Verdana;
+  font-weight: normal;
+  color: #024457;
+  position: relative;
+  font-size: 1.5em;
+}
+
 h1 span {
   color: #167F92;
+}
+
+#cell_body{
+  width: 30vw;
+  position: absolute;
+  left: 35vw;
+}
+
+#my_points{
+  left: 10vw;
+  font-size: 3.5em;
+  margin-top: -3vh;
+  margin-bottom: -3vh;
+}
+
+.blue {
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9;
+  position: relative;
+  left: 9vw;
+}
+
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button {
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
 }
