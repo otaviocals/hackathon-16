@@ -29,6 +29,7 @@ Rails.application.config.assets.precompile += %w( joined.css )
 Rails.application.config.assets.precompile += %w( ranking.css )
 Rails.application.config.assets.precompile += %w( menu_admin.css )
 Rails.application.config.assets.precompile += %w( my_orgs.css )
+Rails.application.config.assets.precompile += %w( menu_org.css )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

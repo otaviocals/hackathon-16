@@ -25,15 +25,16 @@ body {
   text-shadow: 0px -2px #2980B9;
   left: 9vw;
   position: relative;
-  top: 20vh;
+  top: 90vh;
 }
 
 .red {
-  position: relative;
+  position: absolute;
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 35.5vw;
+  left: 7.5vw;
+  bottom: 10vh;
 }
 
 .green {
@@ -65,4 +66,113 @@ body {
   left: 35vw;
   background-color: #CCCCCC;
   top: 0;
+}
+
+#content_div{
+  height: 80vh;
+  width: 30vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  left:0vw;
+}
+
+#beijo_logo{
+  background-image: image_url("beijo.png");
+  width: 15vw;
+  height: 18vh;
+  background-size: 95%;
+  position: absolute;
+  left: 7vw;
+  top:5vh;
+}
+
+#sdgei_logo{
+  background-image: image_url("sdgei.png");
+  width: 10vw;
+  height: 18vh;
+  background-size: 100%;
+  position: absolute;
+  left: 9vw;
+  top:36vh;
+}
+
+#sdgei_label{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 54vh;
+}
+
+#sdgei_label2{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 64vh;
+}
+
+#down_arrow{
+  background-image: image-url("down_arrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  position: absolute;
+  left: 1vw;
+  top: 2.7vh;
+
+}
+
+#down_arrow2{
+  background-image: image-url("down_arrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  position: absolute;
+  left: 1vw;
+  top: 2.7vh;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#beijo_label{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 24vh;
+}
+
+#beijo_label2{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 34vh;
+}
+
+#dropdown_tab{
+  background-color: #afafaf;
+  position:absolute;
+  left: 2vw;
+  width: 26vw;
+  height: 15vw;
+  top: 25vh;
+  overflow-y:  scroll;
+  overflow-x:hidden ;
+}
+
+#dropdown_tab h3{
+  position: relative;
+  left: 1vw;
+}
+
+#dropdown_tab p{
+  position: relative;
+  left: 1.5vw;
 }

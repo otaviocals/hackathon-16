@@ -23,18 +23,18 @@ body {
   background-color: #3498DB;
   border-bottom: 5px solid #2980B9;
   text-shadow: 0px -2px #2980B9;
-  left: -2.7vw;
-  position: relative;
-  top: 60vh;
+  left: 9vw;
+  position: absolute;
+  top: 80vh;
 }
 
 .red {
-  position: relative;
+  position: absolute;
   background-color: #E74C3C;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
-  left: 10vw;
-  top: 50vh;
+  left: 8vw;
+  top: 65vh;
 }
 
 .green {
@@ -69,4 +69,20 @@ body {
   width: 20vw;
   left: 6vw;
   top: 17vh;
+}
+
+#caronae_logo{
+  background-image: image_url("caronae.png");
+  width: 20vw;
+  height: 10vh;
+  background-size: 100%;
+  position: absolute;
+  left: 5vw;
+  top:5vh;
+}
+
+.menu_org_form{
+  position: absolute;
+  left: 8vw;
+  top: 30vh;
 }

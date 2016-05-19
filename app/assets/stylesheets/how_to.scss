@@ -25,7 +25,7 @@ body {
   text-shadow: 0px -2px #2980B9;
   left: 9vw;
   position: relative;
-  top: 20vh;
+  top: 85vh;
 }
 
 .red {
@@ -65,4 +65,105 @@ body {
   left: 35vw;
   background-color: #CCCCCC;
   top: 0;
+}
+
+#content_div{
+  height: 80vh;
+  width: 30vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  left:0vw;
+}
+
+#caronae_logo{
+  background-image: image_url("caronae.png");
+  width: 20vw;
+  height: 10vh;
+  background-size: 100%;
+  position: absolute;
+  left: 2vw;
+  top:5vh;
+}
+
+#gota_logo{
+  background-image: image_url("sangue.png");
+  width: 9vw;
+  height: 15vh;
+  background-size: 100%;
+  position: absolute;
+  left: 2vw;
+  top:65vh;
+}
+
+#gota_label{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 81vh;
+}
+
+#down_arrow{
+  background-image: image-url("down_arrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  position: absolute;
+  left: 1vw;
+  top: 2.7vh;
+
+}
+
+#down_arrow2{
+  background-image: image-url("down_arrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  position: absolute;
+  left: 1vw;
+  top: 2.7vh;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#caronae_label{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 16vh;
+}
+
+#caronae_label2{
+  background-color: #bdbdbd;
+  width: 28vw;
+  left: 1vw;
+  position: absolute;
+  top: 52.5vh;
+}
+
+#dropdown_tab{
+  background-color: #afafaf;
+  position:absolute;
+  left: 2vw;
+  width: 26vw;
+  height: 15vw;
+  top: 25vh;
+  overflow-y:  scroll;
+  overflow-x:hidden ;
+}
+
+#dropdown_tab h3{
+position: relative;
+  left: 1vw;
+}
+
+#dropdown_tab p{
+position: relative;
+  left: 1.5vw;
 }
