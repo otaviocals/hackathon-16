@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5fb34d8-bcf7-452f-b30d-e6d725bdd1ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/menu_admin.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/menu_admin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/join.html.erb" afterPath="$PROJECT_DIR$/app/views/home/join.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/menu_admin.html.erb" afterPath="$PROJECT_DIR$/app/views/home/menu_admin.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/new_org.html.erb" afterPath="$PROJECT_DIR$/app/views/home/new_org.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/menu_org.html.erb" afterPath="$PROJECT_DIR$/app/views/home/menu_org.html.erb" />
     </list>
     <ignored path="Hackathon-16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hackathon-16@Development__Hackathon_16.coverage" NAME="Development: Hackathon-16 Coverage Results" MODIFIED="1463636489711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Hackathon-16" />
+    <SUITE FILE_PATH="coverage/Hackathon-16@Development__Hackathon_16.coverage" NAME="Development: Hackathon-16 Coverage Results" MODIFIED="1463666137685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Hackathon-16" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_admin.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu_admin.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/menu_admin.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9198113">
+            <state vertical-scroll-proportion="-15.0">
               <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
               <folding />
             </state>
@@ -63,8 +61,8 @@
       <file leaf-file-name="menu_org.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/menu_org.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8461537">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -111,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_org.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu_org.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.879717">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -203,14 +201,14 @@
         <option value="$PROJECT_DIR$/app/views/home/menu.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/menu.scss" />
         <option value="$PROJECT_DIR$/app/views/home/how_to.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss" />
         <option value="$PROJECT_DIR$/app/views/home/redeem.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/redeem.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/how_to.scss" />
         <option value="$PROJECT_DIR$/app/views/home/join_org.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/menu_org.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/menu_admin.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/menu_admin.scss" />
+        <option value="$PROJECT_DIR$/app/views/home/menu_org.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss" />
       </list>
     </option>
   </component>
@@ -1196,14 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/redeem.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1538463">
@@ -1245,24 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/menu_org.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8461537">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/menu.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.461538">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/menu_admin.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.769231">
@@ -1283,8 +1255,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/menu_admin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9198113">
+        <state vertical-scroll-proportion="-15.0">
           <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.461538">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/menu_org.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/menu_org.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.879717">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
           <folding />
         </state>
       </provider>
